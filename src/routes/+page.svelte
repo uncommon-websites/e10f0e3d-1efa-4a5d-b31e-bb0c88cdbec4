@@ -25,62 +25,91 @@
 />
 
 <Summary
-	generating
-	title="What we do"
-	text="Our technology delivers measurable results through secure, adaptable solutions that directly increase productivity and drive growth."
+	title="Intelligence that scales expertise"
+	text="Artsignal synthesizes auction results, exhibition histories, and cultural sentiment into comprehensive artist reports and market forecasts. We serve collectors building meaningful collections and advisers managing client portfolios, delivering the systematic intelligence once available only through decades of specialist experience.\n\nOur agentic AI platform processes fragmented data from across the $68B art market, revealing emerging artists before mainstream breakthrough and identifying shifting collector preferences in real-time."
 />
 
 <Testimonials
-	generating
 	testimonials={[
 		{
-			name: "Jane Smith",
-			position: "CTO",
-			company: "Tech Innovations",
+			name: "Elena Karavas",
+			position: "Independent Art Adviser",
+			company: "Karavas Art Advisory",
 			quote:
-				"Their cutting-edge automation boosted our productivity by 35%.\nThe intuitive interface reduced training time and improved team adoption.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"Artsignal cut my research time from three days to three hours per artist report. The comprehensive market data and exhibition histories I once pieced together from dozens of sources are now synthesized instantly, letting me focus on strategic advice for my collectors.",
+			image: "/generated/image-a-professional-greek-woman-art-adviser-i.webp"
 		},
 		{
-			name: "John Doe",
-			position: "Director of Operations",
-			company: "Global Solutions",
+			name: "Marcus Chen",
+			position: "Gallery Director",
+			company: "Chen Contemporary",
 			quote:
-				"Their robust security protocols gave us confidence in handling sensitive data.\nThe 24/7 support team resolved issues within hours, not days.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"We avoided a costly acquisition misstep when Artsignal's sentiment analysis revealed shifting collector interest before it hit auction results. The platform's predictive intelligence has become essential for inventory decisions and artist representation strategy.",
+			image: "/generated/image-a-professional-chinese-man-gallery-direc.webp"
 		},
 		{
-			name: "Sarah Johnson",
-			position: "Product Manager",
-			company: "Future Systems",
+			name: "Sophie Beaumont",
+			position: "Private Collector",
+			company: "Beaumont Collection",
 			quote:
-				"The scalable platform grew seamlessly with our business needs.\nTheir customization options allowed us to tailor solutions perfectly to our workflows.",
-			image: "https://www.unc.mn/image-placeholder.svg"
+				"I no longer need to maintain relationships with multiple specialists to understand emerging markets. Artsignal provides the adviser-grade intelligence I need to build my collection with confidence, identifying artists eighteen months before mainstream recognition.",
+			image: "/generated/image-a-professional-french-woman-art-collecto.webp"
 		}
 	]}
 />
 
 <Features
-	generating
-	title="Features"
-	subtitle="Some features"
+	title="Intelligence that transforms how you collect"
+	subtitle="Artsignal delivers predictive insights that were once accessible only to the world's most sophisticated collectors and advisers"
 	features={[
 		{
-			title: "Streamlined Workflows",
+			title: "Predictive market intelligence",
 			description:
-				"Automate repetitive tasks and connect systems to improve productivity with our industry-leading 87% time savings."
+				"Move beyond historical data with AI-driven forecasts that reveal emerging trends before they reach the mainstream. Our agentic AI platform analyzes decades of collecting expertise to predict artist trajectories and market movements with unprecedented accuracy."
 		},
 		{
-			title: "Data Analysis",
+			title: "Comprehensive data integration",
 			description:
-				"Extract meaningful insights from your data with powerful analytical tools backed by proprietary AI algorithms that are 3x more accurate than competitors."
+				"Access the complete picture with intelligence synthesized from auction results, exhibition histories, media coverage, and sentiment data. We transform fragmented information across the art market into unified, actionable insights."
 		},
 		{
-			title: "Secure Collaboration",
+			title: "Adviser-grade reports",
 			description:
-				"Work together seamlessly while maintaining strict data privacy standards with our zero-knowledge architecture and military-grade encryption."
+				"Receive institutional-quality artist reports including biographies, market outlooks, and valuation analysis. Democratizing access to sophisticated intelligence that was previously available only through expensive private advisers."
+		},
+		{
+			title: "Real-time market signals",
+			description:
+				"Identify shifting collector preferences and emerging opportunities as they unfold. Our platform monitors all market stakeholders simultaneously to surface insights that keep you ahead of the curve."
+		},
+		{
+			title: "Artist discovery engine",
+			description:
+				"Discover rising talent before their mainstream breakthrough with AI-powered recommendations. Our system identifies similar artists and reveals connections that expand your collecting horizons."
+		},
+		{
+			title: "Transparent data sourcing",
+			description:
+				"Build confidence with clear visibility into where our intelligence comes from and how it's analyzed. In an historically opaque market, we earn trust through transparency in every insight we deliver."
 		}
 	]}
 />
-<AboutTeaser generating />
-<CallToAction generating />
+<AboutTeaser />
+<CallToAction
+	title="Start collecting with confidence"
+	subtitle="Join forward-thinking collectors"
+	description="Access the same predictive intelligence that once required decades of specialist expertise and insider connections. Artsignal provides transparent, adviser-grade insights that empower you to build your collection with conviction—whether you're discovering your first acquisition or expanding an established portfolio."
+	imageSrc="/generated/image-a-confident-professional-art-collector-w.webp"
+	callsToAction={[
+		{
+			href: "/get-started",
+			label: "Request early access",
+			variant: "primary"
+		},
+		{
+			href: "/contact",
+			label: "Schedule a demo",
+			variant: "secondary"
+		}
+	]}
+/>
