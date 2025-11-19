@@ -1,7 +1,7 @@
 export const CONFIG = {
-	companyName: "Company",
-	description: "Description",
+	companyName: "Artsignal",
+	description: "Transform fragmented art market data into predictive, adviser-grade intelligence using agentic AI systems",
 	image: "/og.png",
-	url: "https://example.com",
+	url: "https://artsignal.com",
 	fontFamily: "Inter Variable"
 };
