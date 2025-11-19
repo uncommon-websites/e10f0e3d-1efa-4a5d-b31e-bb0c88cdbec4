@@ -6,16 +6,23 @@
 	import CallToAction from "$lib/components/layout/CallToAction.svelte";
 	import AboutTeaser from "$lib/components/layout/AboutTeaser.svelte";
 	import LogoScroller from "$lib/components/layout/LogoScroller.svelte";
-	import Hero from "$lib/components/layout/hero-sections/Hero.svelte";
+	import CenteredTextOnlyHero from "$lib/components/layout/hero-sections/CenteredTextOnlyHero.svelte";
 </script>
 
-<Hero
-	title="Elevate your business with thoughtful design"
-	subtitle="Solutions that enhance user experience, and improve visual communication."
-	imageSrc="https://www.unc.mn/image-placeholder.svg"
-	generating
+<CenteredTextOnlyHero
+	title="Adviser-grade intelligence for the art market"
+	subtitle="Transform fragmented art market data into predictive insights. Artsignal empowers collectors and advisers with comprehensive intelligence that was once accessible only to industry insiders."
+	imageSrc="/generated/image-a-sophisticated-private-art-advisory-roo.webp"
 />
-<LogoScroller label="" generating />
+<LogoScroller
+	label="Trusted by leading art market players"
+	logoUrls={[
+		'https://cdn.brandfetch.io/christies.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/gagosian.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/hauserwirth.com/w/400/h/400/logo',
+		'https://cdn.brandfetch.io/whitecube.com/w/400/h/400/logo'
+	]}
+/>
 
 <Summary
 	generating
